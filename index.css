@@ -7,15 +7,16 @@ body {
 
 div {
  margin: auto;
+ display: flex;
+ gap: 5px;
 }
 
 input {
- border: 2px solid rgb(0, 0, 0);
+ border: 2px solid wheat;
  height: 20px;
  padding: 5px 10px;
  background: transparent;
  color: white;
- border: 1px solid white;
  letter-spacing: 4px;
 }
 input::placeholder {
@@ -23,9 +24,12 @@ input::placeholder {
 }
 
 button {
- height: 32px;
+ height: 33px;
  padding: 5px 10px;
  background: transparent;
- color: white;
- border: 1px solid white;
+ color: wheat;
+ border: 2px solid wheat;
+ /* text-align: center; */
+ display: flex;
+ align-items: center;
 }
