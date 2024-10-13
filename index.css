@@ -1,0 +1,31 @@
+body {
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ background-color: rgba(1, 6, 34, 0.954);
+}
+
+div {
+ margin: auto;
+}
+
+input {
+ border: 2px solid rgb(0, 0, 0);
+ height: 20px;
+ padding: 5px 10px;
+ background: transparent;
+ color: white;
+ border: 1px solid white;
+ letter-spacing: 4px;
+}
+input::placeholder {
+ letter-spacing: 1px;
+}
+
+button {
+ height: 32px;
+ padding: 5px 10px;
+ background: transparent;
+ color: white;
+ border: 1px solid white;
+}

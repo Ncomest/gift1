@@ -1,0 +1,69 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ align-items: start;
+ justify-content: start;
+ flex-direction: column;
+ position: relative;
+ /* background-color: rgba(1, 6, 34, 0.954); */
+ color: wheat;
+ /* padding: 5px; */
+ height: 100vh;
+ overflow: hidden;
+}
+
+body::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-image: url("../../i.webp");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ filter: brightness(30%) blur(3px) drop-shadow(0 0 20px rgb(9, 187, 236));
+ z-index: -1;
+}
+
+.hot-drink {
+ width: 100%;
+ padding: 20px;
+}
+
+.img-container {
+ width: 200px;
+ height: 200px;
+ margin: 0 auto;
+ /* background: white; */
+}
+
+ul {
+ width: 100%;
+ line-height: 1.6em;
+}
+
+img {
+ /* border-radius: 50%; */
+ width: 100%;
+ height: 100%;
+ /* color: wheat; */
+}
+
+li {
+ display: flex;
+ /* justify-content: space-between; */
+ align-items: flex-end;
+}
+
+.dots {
+ flex-grow: 1;
+ border-bottom: 1px dotted wheat;
+ margin: 7px 10px;
+}

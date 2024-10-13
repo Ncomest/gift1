@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.bg_main {
+ position: relative;
+ overflow: hidden;
+ height: 100vh;
+ background-color: rgba(1, 6, 34, 0.954);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-end;
+ gap: 20px;
+}
+
+.bubble_container {
+ /* border: 1px solid black; */
+ position: relative;
+ /* width: 60%; */
+ /* height: 150px; */
+ /* background: white; */
+ transform: translateY(100vh);
+}
+
+.first {
+ animation: bubbling 2s ease 1s forwards;
+ height: 250px;
+ width: 300px;
+}
+
+.second {
+ animation: bubbling 2s ease 3s forwards;
+ height: 50px;
+ background-color: rgb(240, 236, 1);
+ border-radius: 5px;
+ width: 60%;
+ max-width: 400px;
+ font-size: 20px;
+}
+
+@keyframes bubbling {
+ 0% {
+  transform: translateY(50vh);
+ }
+
+ 100% {
+  transform: translateY(-20vh);
+ }
+}
