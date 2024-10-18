@@ -67,3 +67,7 @@ li {
  border-bottom: 1px dotted wheat;
  margin: 7px 10px;
 }
+
+.done {
+  color: rgb(169, 63, 63);
+}
